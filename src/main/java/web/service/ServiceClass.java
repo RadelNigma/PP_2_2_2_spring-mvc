@@ -9,6 +9,6 @@ import java.util.stream.Collectors;
 @Service
 public class ServiceClass {
     public List<Car> getCars (List<Car> cars , int num){
-        return cars.stream().limit(num).collect(Collectors.toList());
+        return  num==0?cars:cars.stream().limit(num).collect(Collectors.toList());
     }
 }

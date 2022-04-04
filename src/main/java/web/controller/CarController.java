@@ -21,7 +21,7 @@ public class CarController {
     }
 
     @GetMapping(value = "/car")
-    public String getCars(@RequestParam(value = "count", required = false) Integer count, ModelMap model){
+    public String getCars(@RequestParam(value = "count" , required = false, defaultValue = "0") Integer count, ModelMap model){
 
         List<Car> cars = new ArrayList<>();
         cars.add(new Car(1 ,"Audi",100));
@@ -29,8 +29,6 @@ public class CarController {
         cars.add(new Car(3 ,"Citroen",300));
         cars.add(new Car(4 ,"Dodge",400));
         cars.add(new Car(5 ,"Tesla",500));
-
-        if(count==0){count=cars.size();}
 
         List<Car> carList = serviceClass.getCars(cars,count);
 
