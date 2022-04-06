@@ -24,7 +24,7 @@ public class CarController {
     public String getCars(@RequestParam(value = "count" , required = false, defaultValue = "0") Integer count, ModelMap model){
 
         List<Car> cars = new ArrayList<>();
-        cars.add(new Car(1 ,"Audi",100));
+        cars.add(new Car(1 ,"Ауди",100));
         cars.add(new Car(2 ,"Bentley",200));
         cars.add(new Car(3 ,"Citroen",300));
         cars.add(new Car(4 ,"Dodge",400));
@@ -36,6 +36,6 @@ public class CarController {
         return "cars";
     }
 
-
+    
 
 }
