@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbbebc07-e5a9-4725-a83d-ee7bb8ea9352" name="Changes" comment="corrected version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" afterDir="false" />
-    </list>
+    <list default="true" id="cbbebc07-e5a9-4725-a83d-ee7bb8ea9352" name="Changes" comment="Added CarService interface" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +169,7 @@
       <updated>1648767328023</updated>
       <workItem from="1648767329241" duration="47894000" />
       <workItem from="1651736807449" duration="276000" />
-      <workItem from="1652371115075" duration="10623000" />
+      <workItem from="1652371115075" duration="10967000" />
     </task>
     <task id="LOCAL-00001" summary="com1">
       <created>1649047548092</created>
@@ -202,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652482931125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added CarService interface">
+      <created>1652652207535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652652207535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +227,7 @@
     <MESSAGE value="com1" />
     <MESSAGE value="Final Fix" />
     <MESSAGE value="corrected version" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected version" />
+    <MESSAGE value="Added CarService interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CarService interface" />
   </component>
 </project>
